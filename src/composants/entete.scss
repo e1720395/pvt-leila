@@ -21,7 +21,7 @@
   }
   
   /* Barre de haut - liens de navigation */
-  .barre-haut nav a {
+  .barre-haut nav button{
     margin: 5px;
     width: 32px;
     height: 32px;
@@ -33,9 +33,11 @@
     line-height: 32px;
     display: inline-block;
     border-radius: 50%;
+    font-family: Icones;
+
   }
   
-  .barre-haut nav a:hover {
+  .barre-haut nav button:hover {
     background-color: #fed531;
   }
   
