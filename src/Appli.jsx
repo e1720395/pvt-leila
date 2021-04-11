@@ -1,9 +1,17 @@
 import './Appli.scss';
+import Entete from './composants/entete';
+import SectionPrincipale from './composants/sectionPrincipale';
+import PiedPage from './composants/piedPage';
 
 export default function Appli() {
   return (
     <div className="Appli">
-        Gabarit de base d'une Application React
+        <Entete />;
+        <SectionPrincipale />;
+        <PiedPage />;
     </div>
+
+
+
   );
 }

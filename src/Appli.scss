@@ -1,0 +1,17 @@
+@import './composants/entete.scss';
+@import './composants/listePlats.scss';
+@import './composants/piedPage.scss';
+@import './composants/sectionPrincipale.scss';
+
+
+/* POLICES DE CARACTÈRES LOCALES */
+@font-face {
+    font-family: Ribbon;
+    src: url(./fonts/Ribbon_V2_2011.woff2);
+  }
+  
+  @font-face {
+    font-family: 'Icones';
+    src: url(./fonts/icones.woff);
+  }
+  
